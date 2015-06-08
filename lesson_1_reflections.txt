@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+When viewing the diff of the two versions of the file, it was easy to 
+see the difference between the working file and the file that  
+does not work.  It made it obvious to see that there was a typo in the
+change that was made.
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+Having the entire history of a file would make mistakes easy to correct
+when you break everything and don't know why or you might want to go 
+back to when the file was actually working.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google docs does?
+
+Pro: logical checkpoint that makes sense to go back and look at and 
+compare.
+Con: You have to manually do it and you may forget to make the commit
+for each logical change.
+Pro: Know what you have actually changed at each commit instead of a
+random point in which the code may not work.
+
+Why do you think some version control systems, like Git allow saving 
+multiple files in one commit, while others like Google docs, treat each 
+file separately?
+
+Since Git is used mostly for coding and many of the files are related
+then it makes sense to track all of the files.  On the other hand 
+Google docs usually isn't used for tracking code and treating the 
+files as a whole is unnecessary.
+
+How can you use the commands git log and git diff to view the history
+of files?
+
+Git log shows all the commits and you can use git diff to see the added
+removed lines in those commits.
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+It is much less scarier to make changes that  might break everything 
+because you can always go back to a commit where everything was working.
+
+Now that you have your workspace set up, what do you want to try using
+for?
+
+I want to use it for my programming projects.
