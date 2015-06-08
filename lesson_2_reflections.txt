@@ -4,3 +4,10 @@ When you initialize a repository, a .git file is created in the folder.
 You need to do it because it will make the file into a git repository
 that can track your commits.
 
+How is the staging area different from the working directory and the
+ repository? What value do you think it offers?
+
+ The staging area tracks what files you want to be included in the 
+ commit.  Since you may have changed many files and want to keep each
+  commit as a single logical change then you can pick and choose what
+  files get commited.
